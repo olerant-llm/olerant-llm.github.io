@@ -8,7 +8,7 @@
     "tags": ["開発ツール", "AI", "Web"],
     "github": "https://github.com/olerant-llm/agent-radar",
     "demo": null,
-    "image": null
+    "image": "assets/agent-radar.png"
   },
   {
     "id": "local-backup",

@@ -1,4 +1,4 @@
-# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-07-18時点）
+# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-07-18セッション終了時点）
 
 ## ゴール（1行）
 
@@ -8,7 +8,7 @@
 
 **サイトは本番公開済み**: https://olerant-llm.github.io （6カード・タグ絞り込み・Agent Radarのみ画像つき）。
 3プロダクトの個別リポジトリ公開も完了（agent-radar / local-backup / ci-layerwriter、いずれもMIT・記名olerant-llm・秘密grepクリア）。
-残りはスクショ2枚（ユーザー撮影待ち）と yokochika-ugoiteru の公開可否判断（現在は非公開のため掲載保留）。
+残りはスクショ2枚（ユーザー撮影待ち）のみ。yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-18ユーザー裁定・6枚構成）。
 
 ## 完了済み
 
@@ -21,10 +21,17 @@
 
 ## 次のアクション（具体的に）
 
-1. ユーザーからCI-LayerWriter / LocalBackupのスクショを受領 → `assets/` に配置 → products.json の `image` を埋めて push
-2. yokochika-ugoiteru を公開するか決める（公開するなら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋台帳に7枚目を追加）
-3. ci-layerwriter のREADMEにスクショ受領後の画像を追記（現在は画像参照なしの状態）
-4. 第2弾以降: 残りプロダクトの掲載・デモリンク追加
+1. ユーザーからCI-LayerWriter / LocalBackupのスクショを受領 → `assets/` に配置（16:9推奨）→ products.json の `image` を埋めて push
+2. ci-layerwriter のREADMEにスクショ受領後の画像を追記（現在は画像参照なしの状態）
+3. カードの説明文・キャッチコピーの手直しがあれば products.json のみ編集
+4. 第2弾以降: 残りプロダクトの掲載・デモリンク追加（yokochika-ugoiteru は非公開のまま見送り。気が変わったら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋中身の秘密情報チェック＋台帳追加）
+
+## 裁定リスト
+
+- 裁定1（2026-07-18）: 公開名義は olerant-llm（本名側アカウントは使わない）。サイトは専用一等地 `olerant-llm.github.io`
+- 裁定2（2026-07-18）: ライセンスはMIT・第1弾はカード＋GitHubリンクのみ（詳細ページなし）
+- 裁定3（2026-07-18）: yokochika-ugoiteru は非公開のまま掲載見送り（6枚構成で確定）
+- 裁定4（2026-07-18）: スクショはユーザーが撮影して提供する（CI-LayerWriter / LocalBackup の2枚）
 
 ## ハマりどころ・約束事
 

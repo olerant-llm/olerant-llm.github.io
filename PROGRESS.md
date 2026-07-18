@@ -6,23 +6,25 @@
 
 ## 現在地（3行以内）
 
-サイト骨格（index.html / style.css / app.js / products.json）を作成し、6プロダクト分の台帳を記入済み。
-GitHub公開（olerant-llm名義）とスクリーンショット撮影はこれから。
-yokochika-ugoiteru は404のため掲載保留（ghログイン後に実名確認）。
+**サイトは本番公開済み**: https://olerant-llm.github.io （6カード・タグ絞り込み・Agent Radarのみ画像つき）。
+3プロダクトの個別リポジトリ公開も完了（agent-radar / local-backup / ci-layerwriter、いずれもMIT・記名olerant-llm・秘密grepクリア）。
+残りはスクショ2枚（ユーザー撮影待ち）と yokochika-ugoiteru の公開可否判断（現在は非公開のため掲載保留）。
 
 ## 完了済み
 
 - 2026-07-18: 企画確定（olerant-llm名義 / GitHub Pages / MIT / カード7枚構成）
-- 2026-07-18: 3プロダクト（ai_coding_status・local_backup・New_editor）の秘密情報スキャン → 実キーなし。local_backup のみ個人パス・13GBの除外が必要
-- 2026-07-18: gh CLI 2.96.0 導入（winget）
-- 2026-07-18: サイト骨格＋台帳6件作成（ビルド不要の静的サイト、タグ絞り込み・状態バッジ・ダークモード対応）
+- 2026-07-18: 3プロダクトの秘密情報スキャン → 実キーなし。ユーザー名入りパスは各リポジトリで汎用表記に置換して公開
+- 2026-07-18: gh CLI 2.96.0 導入（winget）・olerant-llmでログイン（記名は olerant-llm@users.noreply.github.com に固定）
+- 2026-07-18: サイト骨格＋台帳6件作成 → `olerant-llm/olerant-llm.github.io` として公開・実URL表示確認
+- 2026-07-18: agent-radar / local-backup / ci-layerwriter を公開（local_backupは dist/ manual_test/ target/ を除外し公開分142KB）
+- 2026-07-18: Agent Radarのスクショは疑似データのデモ起動（別ポート＋偽ホーム方式）で撮影。実ログの個人情報を回避
 
 ## 次のアクション（具体的に）
 
-1. ユーザーが `gh auth login` で olerant-llm にログイン → `gh repo list` で yokochika-ugoiteru の実名確認
-2. `olerant-llm/olerant-llm.github.io` リポジトリ作成 → push → Pages有効化
-3. 3プロダクトを個別リポジトリ化（agent-radar / local-backup / ci-layerwriter）。push前に秘密情報の最終grep必須
-4. スクショ撮影（Agent Radar と CI-LayerWriter は自動撮影、LocalBackup はユーザー撮影）→ products.json の image を埋める
+1. ユーザーからCI-LayerWriter / LocalBackupのスクショを受領 → `assets/` に配置 → products.json の `image` を埋めて push
+2. yokochika-ugoiteru を公開するか決める（公開するなら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋台帳に7枚目を追加）
+3. ci-layerwriter のREADMEにスクショ受領後の画像を追記（現在は画像参照なしの状態）
+4. 第2弾以降: 残りプロダクトの掲載・デモリンク追加
 
 ## ハマりどころ・約束事
 

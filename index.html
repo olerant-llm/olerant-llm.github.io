@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Olerant Products — 自作プロダクトの展示室</title>
+  <meta name="description" content="AI×バニラ志向の自作プロダクトを日本語で紹介するショーケース。実物はすべてGitHubにあります。">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🗂️</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Olerant Products</h1>
+      <p class="tagline">自作プロダクトの展示室。ここは日本語の入口、実物はすべて GitHub にあります。</p>
+      <p class="profile-link"><a href="https://github.com/olerant-llm" target="_blank" rel="noopener">github.com/olerant-llm ↗</a></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="filter-bar" id="filterBar" aria-label="タグで絞り込み"></nav>
+    <p class="count" id="count"></p>
+    <section class="grid" id="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>掲載物の追加・更新は <code>products.json</code>（台帳）に1項目足すだけ。</p>
+      <p>© olerant-llm</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

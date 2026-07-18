@@ -1,0 +1,68 @@
+[
+  {
+    "id": "agent-radar",
+    "name": "Agent Radar",
+    "catch": "AIコーディングツールの動きをひと目で見張る監視ボード",
+    "description": "Claude Code や Codex などターミナルで動くAIたちの状態を「社員カード」式に一覧表示。承認待ちや停止をすぐ見つけられます。素の Node.js 製で、ブラウザを開くだけ。日英切替つき。",
+    "status": "release",
+    "tags": ["開発ツール", "AI", "Web"],
+    "github": "https://github.com/olerant-llm/agent-radar",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "local-backup",
+    "name": "LocalBackup",
+    "catch": "中断しても続きから再開できる、ローカル専用バックアップ",
+    "description": "Windows 向けのバックアップアプリ。クラウド不要でフォルダを丸ごと控えに取れます。途中で止めても続きから再開でき、2回目以降は差分チェックの工夫で高速。Rust + Tauri 製。",
+    "status": "dev",
+    "tags": ["ユーティリティ", "Windows", "デスクトップ"],
+    "github": "https://github.com/olerant-llm/local-backup",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "ci-layerwriter",
+    "name": "CI-LayerWriter",
+    "catch": "章立てから推敲まで、本を書くためのローカル執筆エディタ",
+    "description": "章・節をドラッグで組み替えながら書けるブラウザ執筆エディタ。AIアシストで下書きや描き直しができ、原稿の自動検査から書籍ファイルへの結合までローカルで完結します。",
+    "status": "dev",
+    "tags": ["執筆", "AI", "Web"],
+    "github": "https://github.com/olerant-llm/ci-layerwriter",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "vanilla-chara-chat",
+    "name": "Vanilla Chara Chat",
+    "catch": "1ファイルで動くキャラクターチャット部品",
+    "description": "HTMLファイル1枚だけで動くAIキャラクターチャット。フレームワーク不要・導入作業なしで、コピーしてブラウザで開けばすぐ使えます。自作アプリへの組み込み部品にも。",
+    "status": "release",
+    "tags": ["AI", "チャット", "単体HTML"],
+    "github": "https://github.com/olerant-llm/Vanilla_chara_chat",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "vanilla-chat",
+    "name": "Vanilla Chat",
+    "catch": "フレームワーク不要の軽量AIチャット",
+    "description": "学習用・創作用に作った軽量AIチャット部品。素のHTML/JSだけで書かれているので、中身を読んで仕組みを学んだり、自分好みに改造したりが簡単です。",
+    "status": "release",
+    "tags": ["AI", "チャット", "単体HTML"],
+    "github": "https://github.com/olerant-llm/Vanilla-Chat",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "vanilla-kamatte-chat",
+    "name": "Vanilla Kamatte Chat",
+    "catch": "ツンデレAIが自分から話しかけてくる単体HTMLチャット",
+    "description": "数秒ごとにAIのほうから自発的に話しかけてくる「プッシュ型」チャット。OpenAI互換APIで動き、これもHTMLファイル1枚だけ。放っておくとかまってきます。",
+    "status": "release",
+    "tags": ["AI", "チャット", "単体HTML"],
+    "github": "https://github.com/olerant-llm/Vanilla-Kamatte-Chat",
+    "demo": null,
+    "image": null
+  }
+]

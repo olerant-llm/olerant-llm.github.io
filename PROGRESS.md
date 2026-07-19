@@ -21,6 +21,7 @@ yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-1
 - 2026-07-19: ユーザー撮影のスクショ2枚（CI-LayerWriter / LocalBackup）を受領・個人情報なし確認 → `assets/` に配置し products.json の `image` を反映
 - 2026-07-19: ci-layerwriter のREADME冒頭に `docs/screenshot.png` を追加して push
 - 2026-07-19: `.gitignore` 新設（撮影元 `screenshot/` と私的メモを公開対象から除外）
+- 2026-07-19: カード詳細モーダル追加（カードクリック→詳しい説明＋GitHub導線。台帳に `details` 欄新設、無ければ description 表示の後方互換。ローカルで開閉・リンク・キーボード操作を検証済み・文面はユーザー承認済み）
 
 ## 次のアクション（具体的に）
 

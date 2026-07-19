@@ -12,6 +12,7 @@ async function init() {
   products = await res.json();
   renderFilterBar();
   renderGrid();
+  setupDialog();
 }
 
 function allTags() {
@@ -73,7 +74,54 @@ function card(p) {
         ${demoBtn}
       </div>
     </div>`;
+
+  el.tabIndex = 0;
+  el.setAttribute("role", "button");
+  el.setAttribute("aria-label", `${p.name} の詳細を見る`);
+  el.addEventListener("click", (e) => {
+    if (e.target.closest("a")) return; // ボタン類はリンク動作を優先
+    openDetail(p);
+  });
+  el.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" && !e.target.closest("a")) openDetail(p);
+  });
   return el;
+}
+
+function openDetail(p) {
+  const dlg = document.getElementById("detailDialog");
+  const status = STATUS_LABEL[p.status] || STATUS_LABEL.exp;
+  const paragraphs = p.details && p.details.length ? p.details : [p.description];
+  const img = p.image
+    ? `<img class="detail-img" src="${p.image}" alt="${p.name} のスクリーンショット">`
+    : "";
+  const demoBtn = p.demo
+    ? `<a class="btn demo" href="${p.demo}" target="_blank" rel="noopener">試してみる</a>`
+    : "";
+  document.getElementById("detailContent").innerHTML = `
+    ${img}
+    <div class="detail-body">
+      <div class="card-head">
+        <h2>${p.name}</h2>
+        <span class="badge ${status.cls}">${status.text}</span>
+      </div>
+      <p class="catch">${p.catch}</p>
+      ${paragraphs.map((t) => `<p class="detail-text">${t}</p>`).join("")}
+      <div class="tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>
+      <div class="links">
+        <a class="btn github" href="${p.github}" target="_blank" rel="noopener">GitHub で見る</a>
+        ${demoBtn}
+      </div>
+    </div>`;
+  dlg.showModal();
+}
+
+function setupDialog() {
+  const dlg = document.getElementById("detailDialog");
+  document.getElementById("detailClose").onclick = () => dlg.close();
+  dlg.addEventListener("click", (e) => {
+    if (e.target === dlg) dlg.close(); // 小窓の外側（背景）クリックで閉じる
+  });
 }
 
 init();

@@ -49,4 +49,5 @@ yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-1
 | `app.js` | 台帳を読んでカード描画＋タグ絞り込み |
 | `index.html` / `style.css` | 骨格と見た目（ダークモード対応） |
 | `assets/` | スクリーンショット置き場（16:9推奨） |
+| `RUNBOOK.md` | 運用手順書（カード追加・新規公開の全手順。手元専用・非公開） |
 | 計画書 | `~/.claude/plans/glimmering-herding-charm.md` |

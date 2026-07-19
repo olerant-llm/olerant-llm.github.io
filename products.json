@@ -19,7 +19,7 @@
     "tags": ["ユーティリティ", "Windows", "デスクトップ"],
     "github": "https://github.com/olerant-llm/local-backup",
     "demo": null,
-    "image": null
+    "image": "assets/local-backup.png"
   },
   {
     "id": "ci-layerwriter",
@@ -30,7 +30,7 @@
     "tags": ["執筆", "AI", "Web"],
     "github": "https://github.com/olerant-llm/ci-layerwriter",
     "demo": null,
-    "image": null
+    "image": "assets/ci-layerwriter.png"
   },
   {
     "id": "vanilla-chara-chat",

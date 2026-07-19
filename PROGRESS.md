@@ -1,4 +1,4 @@
-# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-07-18セッション終了時点）
+# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-07-19セッション終了時点）
 
 ## ゴール（1行）
 
@@ -6,9 +6,9 @@
 
 ## 現在地（3行以内）
 
-**サイトは本番公開済み**: https://olerant-llm.github.io （6カード・タグ絞り込み・Agent Radarのみ画像つき）。
+**サイトは本番公開済み・第1弾の残作業ゼロ**: https://olerant-llm.github.io （6カード・タグ絞り込み・3カード画像つき）。
 3プロダクトの個別リポジトリ公開も完了（agent-radar / local-backup / ci-layerwriter、いずれもMIT・記名olerant-llm・秘密grepクリア）。
-残りはスクショ2枚（ユーザー撮影待ち）のみ。yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-18ユーザー裁定・6枚構成）。
+yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-18ユーザー裁定・6枚構成）。
 
 ## 完了済み
 
@@ -18,13 +18,14 @@
 - 2026-07-18: サイト骨格＋台帳6件作成 → `olerant-llm/olerant-llm.github.io` として公開・実URL表示確認
 - 2026-07-18: agent-radar / local-backup / ci-layerwriter を公開（local_backupは dist/ manual_test/ target/ を除外し公開分142KB）
 - 2026-07-18: Agent Radarのスクショは疑似データのデモ起動（別ポート＋偽ホーム方式）で撮影。実ログの個人情報を回避
+- 2026-07-19: ユーザー撮影のスクショ2枚（CI-LayerWriter / LocalBackup）を受領・個人情報なし確認 → `assets/` に配置し products.json の `image` を反映
+- 2026-07-19: ci-layerwriter のREADME冒頭に `docs/screenshot.png` を追加して push
+- 2026-07-19: `.gitignore` 新設（撮影元 `screenshot/` と私的メモを公開対象から除外）
 
 ## 次のアクション（具体的に）
 
-1. ユーザーからCI-LayerWriter / LocalBackupのスクショを受領 → `assets/` に配置（16:9推奨）→ products.json の `image` を埋めて push
-2. ci-layerwriter のREADMEにスクショ受領後の画像を追記（現在は画像参照なしの状態）
-3. カードの説明文・キャッチコピーの手直しがあれば products.json のみ編集
-4. 第2弾以降: 残りプロダクトの掲載・デモリンク追加（yokochika-ugoiteru は非公開のまま見送り。気が変わったら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋中身の秘密情報チェック＋台帳追加）
+1. カードの説明文・キャッチコピーの手直しがあれば products.json のみ編集
+2. 第2弾以降: 残りプロダクトの掲載・デモリンク追加（yokochika-ugoiteru は非公開のまま見送り。気が変わったら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋中身の秘密情報チェック＋台帳追加）
 
 ## 裁定リスト
 

@@ -1,5 +1,44 @@
 [
   {
+    "id": "ci-layerwriter",
+    "name": "CI-LayerWriter",
+    "catch": "章立てから推敲まで、本を書くためのローカル執筆エディタ",
+    "description": "章・節をドラッグで組み替えながら書けるブラウザ執筆エディタ。AIアシストで下書きや描き直しができ、原稿の自動検査から書籍ファイルへの結合までローカルで完結します。",
+    "details": [
+      "1冊の本を「章・節」の階層で管理しながら書くための執筆エディタです。左に構成ツリー、中央に原稿、右にAIアシストと自動検査という3カラム画面で、章や節はドラッグ＆ドロップで組み替えられます。",
+      "AIアシストには「この節を約1,000字で書き下ろして」のような指示を出せて、下書き生成や部分的な描き直しに使えます。さらに、目標文字数に届いているか・決まり文句の重複がないかなどを自動検査（プログラム開発の品質チェックの考え方を執筆に応用）できるのが特徴です。",
+      "Node.js があれば追加インストールなしで動き、原稿は手元のフォルダに自動保存されます。仕上げは章・節を1冊分のファイルに結合して書き出せます。"
+    ],
+    "status": "release",
+    "tags": [
+      "執筆",
+      "AI",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/ci-layerwriter",
+    "demo": null,
+    "image": "assets/ci-layerwriter.png"
+  },
+  {
+    "id": "portfolio-lphaba",
+    "name": "Lphaba",
+    "catch": "記事の球が漂う空間を飛び、気になる話題を読む",
+    "description": "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
+    "details": [
+      "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "ニュース",
+      "空間探索",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-lphaba",
+    "demo": null,
+    "image": "assets/portfolio-lphaba.png"
+  },
+  {
     "id": "agent-radar",
     "name": "Agent Radar",
     "catch": "AIコーディングツールの動きをひと目で見張る監視ボード",
@@ -20,6 +59,25 @@
     "image": "assets/agent-radar.png"
   },
   {
+    "id": "portfolio-epub-pdf-maker",
+    "name": "EPUB / PDF Maker",
+    "catch": "原稿から電子書籍とPDFを作る",
+    "description": "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
+    "details": [
+      "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "電子書籍",
+      "PDF",
+      "執筆"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-epub-pdf-maker",
+    "demo": null,
+    "image": "assets/portfolio-epub-pdf-maker.png"
+  },
+  {
     "id": "local-backup",
     "name": "LocalBackup",
     "catch": "中断しても続きから再開できる、ローカル専用バックアップ",
@@ -38,26 +96,6 @@
     "github": "https://github.com/olerant-llm/local-backup",
     "demo": null,
     "image": "assets/local-backup.png"
-  },
-  {
-    "id": "ci-layerwriter",
-    "name": "CI-LayerWriter",
-    "catch": "章立てから推敲まで、本を書くためのローカル執筆エディタ",
-    "description": "章・節をドラッグで組み替えながら書けるブラウザ執筆エディタ。AIアシストで下書きや描き直しができ、原稿の自動検査から書籍ファイルへの結合までローカルで完結します。",
-    "details": [
-      "1冊の本を「章・節」の階層で管理しながら書くための執筆エディタです。左に構成ツリー、中央に原稿、右にAIアシストと自動検査という3カラム画面で、章や節はドラッグ＆ドロップで組み替えられます。",
-      "AIアシストには「この節を約1,000字で書き下ろして」のような指示を出せて、下書き生成や部分的な描き直しに使えます。さらに、目標文字数に届いているか・決まり文句の重複がないかなどを自動検査（プログラム開発の品質チェックの考え方を執筆に応用）できるのが特徴です。",
-      "Node.js があれば追加インストールなしで動き、原稿は手元のフォルダに自動保存されます。仕上げは章・節を1冊分のファイルに結合して書き出せます。"
-    ],
-    "status": "release",
-    "tags": [
-      "執筆",
-      "AI",
-      "Web"
-    ],
-    "github": "https://github.com/olerant-llm/ci-layerwriter",
-    "demo": null,
-    "image": "assets/ci-layerwriter.png"
   },
   {
     "id": "vanilla-chara-chat",
@@ -233,25 +271,6 @@
     "image": "assets/portfolio-localoffice.png"
   },
   {
-    "id": "portfolio-epub-pdf-maker",
-    "name": "EPUB / PDF Maker",
-    "catch": "原稿から電子書籍とPDFを作る",
-    "description": "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
-    "details": [
-      "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
-      "GitHubに使い方と必要な準備を掲載しています。"
-    ],
-    "status": "release",
-    "tags": [
-      "電子書籍",
-      "PDF",
-      "執筆"
-    ],
-    "github": "https://github.com/olerant-llm/portfolio-epub-pdf-maker",
-    "demo": null,
-    "image": "assets/portfolio-epub-pdf-maker.png"
-  },
-  {
     "id": "portfolio-slide-tools",
     "name": "Create Slide",
     "catch": "HTMLからPDF・PowerPoint資料へ",
@@ -364,25 +383,6 @@
     "github": "https://github.com/olerant-llm/portfolio-vibecoding-classroom",
     "demo": null,
     "image": null
-  },
-  {
-    "id": "portfolio-lphaba",
-    "name": "Lphaba",
-    "catch": "記事の球が漂う空間を飛び、気になる話題を読む",
-    "description": "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
-    "details": [
-      "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
-      "GitHubに使い方と必要な準備を掲載しています。"
-    ],
-    "status": "release",
-    "tags": [
-      "ニュース",
-      "空間探索",
-      "Web"
-    ],
-    "github": "https://github.com/olerant-llm/portfolio-lphaba",
-    "demo": null,
-    "image": "assets/portfolio-lphaba.png"
   },
   {
     "id": "portfolio-realtime-monitor",

@@ -10,7 +10,11 @@
       "外部パッケージを使わない素の Node.js 製で、インストール作業なし。起動してブラウザを開くだけで使えます。"
     ],
     "status": "release",
-    "tags": ["開発ツール", "AI", "Web"],
+    "tags": [
+      "開発ツール",
+      "AI",
+      "Web"
+    ],
     "github": "https://github.com/olerant-llm/agent-radar",
     "demo": null,
     "image": "assets/agent-radar.png"
@@ -26,7 +30,11 @@
       "中身は Rust + Tauri 製のデスクトップアプリ。ネットワーク通信を行わず、データはすべて手元に残ります。"
     ],
     "status": "release",
-    "tags": ["ユーティリティ", "Windows", "デスクトップ"],
+    "tags": [
+      "ユーティリティ",
+      "Windows",
+      "デスクトップ"
+    ],
     "github": "https://github.com/olerant-llm/local-backup",
     "demo": null,
     "image": "assets/local-backup.png"
@@ -42,7 +50,11 @@
       "Node.js があれば追加インストールなしで動き、原稿は手元のフォルダに自動保存されます。仕上げは章・節を1冊分のファイルに結合して書き出せます。"
     ],
     "status": "release",
-    "tags": ["執筆", "AI", "Web"],
+    "tags": [
+      "執筆",
+      "AI",
+      "Web"
+    ],
     "github": "https://github.com/olerant-llm/ci-layerwriter",
     "demo": null,
     "image": "assets/ci-layerwriter.png"
@@ -58,7 +70,11 @@
       "中身は素の HTML / JavaScript のみ。仕組みがそのまま読めるので、AIチャットの作り方を学ぶ教材としても向いています。"
     ],
     "status": "release",
-    "tags": ["AI", "チャット", "単体HTML"],
+    "tags": [
+      "AI",
+      "チャット",
+      "単体HTML"
+    ],
     "github": "https://github.com/olerant-llm/Vanilla_chara_chat",
     "demo": null,
     "image": null
@@ -73,7 +89,11 @@
       "コードが短く隠れた仕組みがないため、「AIチャットはどう動いているのか」を読んで理解する教材に向いています。ここから自分好みの見た目や機能に改造していく土台としても使えます。"
     ],
     "status": "release",
-    "tags": ["AI", "チャット", "単体HTML"],
+    "tags": [
+      "AI",
+      "チャット",
+      "単体HTML"
+    ],
     "github": "https://github.com/olerant-llm/Vanilla-Chat",
     "demo": null,
     "image": null
@@ -89,8 +109,202 @@
       "OpenAI互換の接続口（API）に対応しているので、手元のローカルAIでも動かせます。これも導入作業なし・HTMLファイル1枚だけの構成です。"
     ],
     "status": "release",
-    "tags": ["AI", "チャット", "単体HTML"],
+    "tags": [
+      "AI",
+      "チャット",
+      "単体HTML"
+    ],
     "github": "https://github.com/olerant-llm/Vanilla-Kamatte-Chat",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-netless-pdf",
+    "name": "ネットレスPDF",
+    "catch": "ネットに送らず、手元でPDFを編集",
+    "description": "PaperKnifeを基に、日本語の編集画面でPDFのページ操作や書き出しを行えるようにしたWindows向けアプリ。文書を端末内で処理します。公開版にはソースと起動手順を収録しています。",
+    "details": [
+      "PaperKnifeを基に、日本語の編集画面でPDFのページ操作や書き出しを行えるようにしたWindows向けアプリ。文書を端末内で処理します。公開版にはソースと起動手順を収録しています。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "PDF",
+      "Windows",
+      "デスクトップ"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-netless-pdf",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-next-novel-maker",
+    "name": "Next Novel Maker",
+    "catch": "物語の分岐を記述し、検査する制作基盤",
+    "description": "教材向けの分岐台本を読み取り、書式や登場人物の参照を確認する試作です。選択肢・変数・再生状態を扱う処理を備え、編集画面とプレイヤー画面は未実装です。",
+    "details": [
+      "教材向けの分岐台本を読み取り、書式や登場人物の参照を確認する試作です。選択肢・変数・再生状態を扱う処理を備え、編集画面とプレイヤー画面は未実装です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "dev",
+    "tags": [
+      "創作",
+      "ゲーム",
+      "開発ツール"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-next-novel-maker",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-label-filer",
+    "name": "Label Filer",
+    "catch": "ファイルをタグで整理し、探しやすく",
+    "description": "画像や文章をタグで整理・検索するWindows向けツール。画像の自動タグ付けと文章からの語句抽出を備えています。公開版は小さな見本辞書を収録し、初回起動時に画像認識モデルを取得します。",
+    "details": [
+      "画像や文章をタグで整理・検索するWindows向けツール。画像の自動タグ付けと文章からの語句抽出を備えています。公開版は小さな見本辞書を収録し、初回起動時に画像認識モデルを取得します。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "ファイル整理",
+      "ユーティリティ",
+      "Python"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-label-filer",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-personal-data-coder",
+    "name": "個人情報コード化ツール",
+    "catch": "氏名・年組をコードに置き換える",
+    "description": "文書中の氏名・学年・組・番号をコードへ置き換え、暗号化した対応表を端末内で管理するツール。架空の名簿と文書の見本を収録しています。住所など他の個人情報は別途確認が必要です。",
+    "details": [
+      "文書中の氏名・学年・組・番号をコードへ置き換え、暗号化した対応表を端末内で管理するツール。架空の名簿と文書の見本を収録しています。住所など他の個人情報は別途確認が必要です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "業務支援",
+      "個人情報",
+      "Python"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-personal-data-coder",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-filebox",
+    "name": "Filebox",
+    "catch": "受け渡しリンクでファイルを届ける",
+    "description": "管理画面からファイルを登録し、受け取り用リンクとパスワードを発行するPHP製ツール。ダウンロード数も確認できます。公開版は管理者情報と配備先を自分で設定するソース版で、本番運用前の安全対策は残っています。",
+    "details": [
+      "管理画面からファイルを登録し、受け取り用リンクとパスワードを発行するPHP製ツール。ダウンロード数も確認できます。公開版は管理者情報と配備先を自分で設定するソース版で、本番運用前の安全対策は残っています。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "dev",
+    "tags": [
+      "ファイル共有",
+      "PHP",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-filebox",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-localoffice",
+    "name": "LocalOffice",
+    "catch": "手元の文書・表・スライドを一つのアプリで編集",
+    "description": "GenOfficeをもとに、AIとオンライン機能を切り離したデスクトップアプリです。文書・表計算・スライド・PDFなどを扱います。公開版にはソースと起動手順、元作品と利用部品の権利表記を収録しています。",
+    "details": [
+      "GenOfficeをもとに、AIとオンライン機能を切り離したデスクトップアプリです。文書・表計算・スライド・PDFなどを扱います。公開版にはソースと起動手順、元作品と利用部品の権利表記を収録しています。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "文書",
+      "表計算",
+      "デスクトップ"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-localoffice",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-epub-pdf-maker",
+    "name": "EPUB / PDF Maker",
+    "catch": "原稿から電子書籍とPDFを作る",
+    "description": "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
+    "details": [
+      "原稿をEPUBやPDFへ変換する制作ツール。変換処理とテンプレートを公開しています。変換に使う外部ソフトは導入手順に沿って別途用意します。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "電子書籍",
+      "PDF",
+      "執筆"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-epub-pdf-maker",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-slide-tools",
+    "name": "Create Slide",
+    "catch": "HTMLからPDF・PowerPoint資料へ",
+    "description": "HTML形式のスライドを作り、PDFやPowerPoint形式へ変換するための道具とひな形です。実際の業務資料を含めず、自分の原稿を用意して使える構成です。",
+    "details": [
+      "HTML形式のスライドを作り、PDFやPowerPoint形式へ変換するための道具とひな形です。実際の業務資料を含めず、自分の原稿を用意して使える構成です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "スライド",
+      "PDF",
+      "Python"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-slide-tools",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-slideforge",
+    "name": "SlideForge / md_pptx",
+    "catch": "Markdownからスライドを組み立てる",
+    "description": "Markdownを使ってスライドを作るデスクトップアプリ。専用形式での保存、PowerPointの読み書き、単一HTMLへの書き出しに対応しています。PowerPointの読込に使う外部ソフトは別途用意します。",
+    "details": [
+      "Markdownを使ってスライドを作るデスクトップアプリ。専用形式での保存、PowerPointの読み書き、単一HTMLへの書き出しに対応しています。PowerPointの読込に使う外部ソフトは別途用意します。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "Markdown",
+      "スライド",
+      "デスクトップ"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-slideforge",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-pptx-to-gslides",
+    "name": "PPTX to Google Slides",
+    "catch": "PowerPoint資料をGoogleスライドへ",
+    "description": "PowerPointを読み取り、文字・図形やフォントをGoogleスライドへ変換するPython製の試作です。利用者自身のGoogle認証設定が必要で、実運用での変換確認は残っています。",
+    "details": [
+      "PowerPointを読み取り、文字・図形やフォントをGoogleスライドへ変換するPython製の試作です。利用者自身のGoogle認証設定が必要で、実運用での変換確認は残っています。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "dev",
+    "tags": [
+      "スライド",
+      "Google",
+      "Python"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-pptx-to-gslides",
     "demo": null,
     "image": null
   }

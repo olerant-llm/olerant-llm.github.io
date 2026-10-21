@@ -307,5 +307,100 @@
     "github": "https://github.com/olerant-llm/portfolio-pptx-to-gslides",
     "demo": null,
     "image": null
+  },
+  {
+    "id": "portfolio-model-svg-gallery",
+    "name": "SVG Gallery",
+    "catch": "SVG作品の受付・管理・公開をWordPressで",
+    "description": "3D・SVG作品サイトから、独立して使えるSVGギャラリー部分を公開。WordPress上で作品の受付と管理、公開を行う追加機能です。配布作品そのものは含めていません。",
+    "details": [
+      "3D・SVG作品サイトから、独立して使えるSVGギャラリー部分を公開。WordPress上で作品の受付と管理、公開を行う追加機能です。配布作品そのものは含めていません。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "SVG",
+      "WordPress",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-model-svg-gallery",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-vanilla-writer",
+    "name": "Vanilla Writer",
+    "catch": "HTML一枚に収めたAI執筆支援画面",
+    "description": "章立てから本文、章要約へ進める単体HTMLの執筆支援画面。原稿や設定はブラウザー内に保存します。生成には、この画面の署名認証に対応したLLMサーバーを別途用意します。",
+    "details": [
+      "章立てから本文、章要約へ進める単体HTMLの執筆支援画面。原稿や設定はブラウザー内に保存します。生成には、この画面の署名認証に対応したLLMサーバーを別途用意します。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "執筆",
+      "AI",
+      "単体HTML"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-vanilla-writer",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-vibecoding-classroom",
+    "name": "Vibecoding Classroom",
+    "catch": "AIを使ったものづくり体験を支えるWebサービス",
+    "description": "体験講座向けWebサービスの開発版ソースです。参加者向け画面や管理機能を備え、一部の操作は最終確認が残っています。利用には自分のFirebase環境などの設定が必要です。",
+    "details": [
+      "体験講座向けWebサービスの開発版ソースです。参加者向け画面や管理機能を備え、一部の操作は最終確認が残っています。利用には自分のFirebase環境などの設定が必要です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "dev",
+    "tags": [
+      "教育",
+      "AI",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-vibecoding-classroom",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-lphaba",
+    "name": "Lphaba",
+    "catch": "記事の球が漂う空間を飛び、気になる話題を読む",
+    "description": "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
+    "details": [
+      "記事を球として配置した空間を移動し、気になる球を開いて読むWebアプリ。記事やタグのつながりを眺めて探索できます。公開版は架空の見本記事を使い、手元で体験できる構成です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "ニュース",
+      "空間探索",
+      "Web"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-lphaba",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": "portfolio-realtime-monitor",
+    "name": "Realtime Monitor",
+    "catch": "気になる語の投稿を調べ、CSVにまとめる",
+    "description": "Yahoo!リアルタイム検索の投稿を読み取り、本文・日時・画像の有無・投稿URLをCSVへ保存するツール。手元のブラウザーで操作します。検索元の画面構造に依存するため、取得結果の確認が必要です。",
+    "details": [
+      "Yahoo!リアルタイム検索の投稿を読み取り、本文・日時・画像の有無・投稿URLをCSVへ保存するツール。手元のブラウザーで操作します。検索元の画面構造に依存するため、取得結果の確認が必要です。",
+      "GitHubに使い方と必要な準備を掲載しています。"
+    ],
+    "status": "release",
+    "tags": [
+      "投稿検索",
+      "CSV",
+      "業務支援"
+    ],
+    "github": "https://github.com/olerant-llm/portfolio-realtime-monitor",
+    "demo": null,
+    "image": null
   }
 ]

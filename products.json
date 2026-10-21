@@ -77,7 +77,7 @@
     ],
     "github": "https://github.com/olerant-llm/Vanilla_chara_chat",
     "demo": null,
-    "image": null
+    "image": "assets/vanilla-chara-chat.png"
   },
   {
     "id": "vanilla-chat",
@@ -96,7 +96,7 @@
     ],
     "github": "https://github.com/olerant-llm/Vanilla-Chat",
     "demo": null,
-    "image": null
+    "image": "assets/vanilla-chat.png"
   },
   {
     "id": "vanilla-kamatte-chat",
@@ -116,7 +116,7 @@
     ],
     "github": "https://github.com/olerant-llm/Vanilla-Kamatte-Chat",
     "demo": null,
-    "image": null
+    "image": "assets/vanilla-kamatte-chat.png"
   },
   {
     "id": "portfolio-netless-pdf",
@@ -135,7 +135,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-netless-pdf",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-netless-pdf.png"
   },
   {
     "id": "portfolio-next-novel-maker",
@@ -173,7 +173,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-label-filer",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-label-filer.png"
   },
   {
     "id": "portfolio-personal-data-coder",
@@ -230,7 +230,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-localoffice",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-localoffice.png"
   },
   {
     "id": "portfolio-epub-pdf-maker",
@@ -249,7 +249,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-epub-pdf-maker",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-epub-pdf-maker.png"
   },
   {
     "id": "portfolio-slide-tools",
@@ -268,7 +268,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-slide-tools",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-slide-tools.png"
   },
   {
     "id": "portfolio-slideforge",
@@ -287,7 +287,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-slideforge",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-slideforge.png"
   },
   {
     "id": "portfolio-pptx-to-gslides",
@@ -344,7 +344,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-vanilla-writer",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-vanilla-writer.png"
   },
   {
     "id": "portfolio-vibecoding-classroom",
@@ -382,7 +382,7 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-lphaba",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-lphaba.png"
   },
   {
     "id": "portfolio-realtime-monitor",
@@ -401,6 +401,6 @@
     ],
     "github": "https://github.com/olerant-llm/portfolio-realtime-monitor",
     "demo": null,
-    "image": null
+    "image": "assets/portfolio-realtime-monitor.png"
   }
 ]

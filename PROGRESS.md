@@ -1,4 +1,4 @@
-# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-07-19セッション終了時点）
+# Product Gallery（プロダクト紹介ダッシュボード） 進捗（2026-10-22時点）
 
 ## ゴール（1行）
 
@@ -6,11 +6,13 @@
 
 ## 現在地（3行以内）
 
-**サイトは本番公開済み・第1弾の残作業ゼロ**: https://olerant-llm.github.io （6カード・タグ絞り込み・3カード画像つき）。
-3プロダクトの個別リポジトリ公開も完了（agent-radar / local-backup / ci-layerwriter、いずれもMIT・記名olerant-llm・秘密grepクリア）。
-yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-18ユーザー裁定・6枚構成）。
+紹介サイトは21カードを公開中。今回12件のスクリーンショットを追加し、画像付きは計15件。変更は手元で準備済みで、公開反映の確認待ち。
+ページ上部に `https://olerant.spiel-life.com/` へのリンクを追加。カード画像は全体を収め、詳細画面は画像本来の縦横比で表示する。
+画面は初期状態またはサンプルデータを使用。Realtime Monitorは操作画面のみ、Label Filerはモデル取得・推論を省いた起動で撮影。画像は全機能の動作保証を示すものではない。
 
 ## 完了済み
+
+- 2026-10-22: 12件の画像と外部サイトリンクを追加。画像の個人情報・秘密情報の写り込みを目視確認し、縦長画像が切れない表示へ調整。
 
 - 2026-07-18: 企画確定（olerant-llm名義 / GitHub Pages / MIT / カード7枚構成）
 - 2026-07-18: 3プロダクトの秘密情報スキャン → 実キーなし。ユーザー名入りパスは各リポジトリで汎用表記に置換して公開
@@ -25,8 +27,8 @@ yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-1
 
 ## 次のアクション（具体的に）
 
-1. カードの説明文・キャッチコピーの手直しがあれば products.json のみ編集
-2. 第2弾以降: 残りプロダクトの掲載・デモリンク追加（yokochika-ugoiteru は非公開のまま見送り。気が変わったら `gh repo edit olerant-llm/yokochika-ugoiteru --visibility public` ＋中身の秘密情報チェック＋台帳追加）
+1. 今回の変更を公開し、21カード・15画像・外部リンクの本番反映を確認する。
+2. 未撮影6件は、操作画面と実行環境の準備ができたものから追加する。
 
 ## 裁定リスト
 
@@ -37,7 +39,7 @@ yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-1
 
 ## ハマりどころ・約束事
 
-- **親リポジトリ（project全体）は絶対にpushしない**。兄弟フォルダに実APIキーあり（schoolyell / Vibecoding_site / Press_release_system）
+- 公開するファイルは、この紹介サイトに必要な内容だけに限定する。
 - 新規リポジトリの git 記名は `olerant-llm` + `olerant-llm@users.noreply.github.com`（本名・本名メールを履歴に載せない）
 - ファイル削除はしない。除外は .gitignore で行う（local_backup の dist/ や manual_test/ など）
 - 掲載追加は products.json に1項目足すだけ。HTMLは触らない運用
@@ -51,4 +53,3 @@ yokochika-ugoiteru は**非公開のまま掲載見送りで確定**（2026-07-1
 | `index.html` / `style.css` | 骨格と見た目（ダークモード対応） |
 | `assets/` | スクリーンショット置き場（16:9推奨） |
 | `RUNBOOK.md` | 運用手順書（カード追加・新規公開の全手順。手元専用・非公開） |
-| 計画書 | `~/.claude/plans/glimmering-herding-charm.md` |

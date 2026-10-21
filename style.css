@@ -49,7 +49,7 @@ body {
 .site-header { padding: 48px 0 28px; border-bottom: 1px solid var(--line); }
 .site-header h1 { margin: 0 0 6px; font-size: 1.9rem; letter-spacing: .02em; }
 .tagline { margin: 0; color: var(--text-sub); }
-.profile-link { margin: 10px 0 0; font-size: .92rem; }
+.profile-link { display: flex; flex-wrap: wrap; gap: 8px 20px; margin: 10px 0 0; font-size: .92rem; }
 .profile-link a { color: var(--accent); text-decoration: none; }
 .profile-link a:hover { text-decoration: underline; }
 
@@ -90,7 +90,7 @@ body {
 .card:hover, .card:focus-visible { transform: translateY(-2px); border-color: var(--accent); }
 
 .thumb { aspect-ratio: 16 / 9; background: var(--accent-weak); position: relative; }
-.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; display: block; }
 .thumb .placeholder {
   position: absolute; inset: 0;
   display: flex; align-items: center; justify-content: center;
@@ -154,7 +154,7 @@ body {
 }
 .detail-close:hover { background: rgba(20, 26, 36, .8); }
 
-.detail-img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; }
+.detail-img { width: 100%; height: auto; display: block; }
 .detail-body { padding: 18px 22px 22px; }
 .detail-body h2 { margin: 0; font-size: 1.25rem; }
 .detail-text { margin: 10px 0 0; font-size: .9rem; }

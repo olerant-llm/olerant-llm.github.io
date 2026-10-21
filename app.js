@@ -26,7 +26,7 @@ async function init() {
   }
   updateBackground();
   try {
-    const res = await fetch("products.json");
+    const res = await fetch("products.json", { cache: "no-cache" });
     if (!res.ok) throw new Error("Unable to load products");
     products = await res.json();
     renderFilterBar();

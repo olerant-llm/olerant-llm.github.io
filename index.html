@@ -11,24 +11,26 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1>Olerant Products</h1>
-      <p class="tagline">自作プロダクトの展示室。ここは日本語の入口、実物はすべて GitHub にあります。</p>
+      <p class="eyebrow"><span class="brand-mark" aria-hidden="true">o.</span> OLERANT PRODUCTS</p>
+      <h1>つくったものを、<br>ここに。</h1>
+      <p class="tagline">AIとつくる、日々の道具と小さな実験。<br>気になる作品から、のぞいてみてください。</p>
       <p class="profile-link">
-        <a href="https://github.com/olerant-llm" target="_blank" rel="noopener">GitHub ↗</a>
-        <a href="https://olerant.spiel-life.com/" target="_blank" rel="noopener noreferrer">Olerant のサイト ↗</a>
+        <a class="site-cta" href="https://olerant.spiel-life.com/" target="_blank" rel="noopener noreferrer">オレラントのページへ <span aria-hidden="true">↗</span><span class="sr-only">（新しいタブで開きます）</span></a>
+        <a class="secondary-link" href="https://github.com/olerant-llm" target="_blank" rel="noopener noreferrer">GitHub ↗<span class="sr-only">（新しいタブで開きます）</span></a>
       </p>
     </div>
   </header>
 
   <main class="container">
+    <div class="collection-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>作品を探す</h2></div><p class="count" id="count" role="status"></p></div>
     <nav class="filter-bar" id="filterBar" aria-label="タグで絞り込み"></nav>
-    <p class="count" id="count"></p>
-    <section class="grid" id="grid" aria-live="polite"></section>
+    <section class="grid" id="grid" aria-label="プロダクト一覧"></section>
+    <noscript>作品の表示にはJavaScriptを有効にしてください。上部のGitHubからも作品をご覧いただけます。</noscript>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>掲載物の追加・更新は <code>products.json</code>（台帳）に1項目足すだけ。</p>
+      <div class="footer-invitation"><div><p class="eyebrow">BEYOND THE COLLECTION</p><h2>オレラントのページも、どうぞ。</h2></div><a class="site-cta" href="https://olerant.spiel-life.com/" target="_blank" rel="noopener noreferrer">オレラントのページへ ↗<span class="sr-only">（新しいタブで開きます）</span></a></div>
       <p>© olerant-llm</p>
     </div>
   </footer>
